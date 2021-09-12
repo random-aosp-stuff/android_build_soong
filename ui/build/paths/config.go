@@ -88,6 +88,7 @@ var Configuration = map[string]PathConfig{
 	"javap":   Allowed,
 	"locale":  Allowed,
 	"lsof":    Allowed,
+	"llvm-ar": Allowed,
 	"openssl": Allowed,
 	"patch":   Allowed,
 	"pstree":  Allowed,
