@@ -233,6 +233,7 @@ def generate_build_info(args):
   print(f"ro.build.version.release_or_codename={config['Platform_version_name']}")
   print(f"ro.build.version.release_or_preview_display={config['Platform_display_version_name']}")
   print(f"ro.build.version.security_patch={config['Platform_security_patch']}")
+  print(f"ro.build.version.real_security_patch={config['Platform_real_security_patch']}")
   print(f"ro.build.version.base_os={config['Platform_base_os']}")
   print(f"ro.build.version.min_supported_target_sdk={build_flags['RELEASE_PLATFORM_MIN_SUPPORTED_TARGET_SDK_VERSION']}")
   print(f"ro.build.date={config['Date']}")

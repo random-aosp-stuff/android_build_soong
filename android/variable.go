@@ -221,6 +221,7 @@ type ProductVariables struct {
 	Platform_version_all_preview_codenames []string `json:",omitempty"`
 	Platform_systemsdk_versions            []string `json:",omitempty"`
 	Platform_security_patch                *string  `json:",omitempty"`
+	Platform_real_security_patch           *string  `json:",omitempty"`
 	Platform_preview_sdk_version           *string  `json:",omitempty"`
 	Platform_base_os                       *string  `json:",omitempty"`
 	Platform_version_last_stable           *string  `json:",omitempty"`
