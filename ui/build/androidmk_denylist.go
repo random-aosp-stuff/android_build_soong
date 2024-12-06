@@ -38,7 +38,8 @@ var androidmk_denylist []string = []string{
 	"kernel/tests/",
 	"libcore/",
 	"libnativehelper/",
-	"packages/",
+	// Add back packages/ once aurora privileged extension gets removed
+	//"packages/",
 	"pdk/",
 	"platform_testing/",
 	"prebuilts/",
